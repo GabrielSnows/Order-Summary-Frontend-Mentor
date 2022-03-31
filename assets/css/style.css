@@ -17,7 +17,7 @@
 body {
   font-family: 'Red Hat Display', sans-serif;
   background: var(--Pale-blue)
-    url(/assets/images/pattern-background-desktop.svg) no-repeat;
+    url(../images/pattern-background-desktop.svg) no-repeat;
   background-size: contain;
 }
 
