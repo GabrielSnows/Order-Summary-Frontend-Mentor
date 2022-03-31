@@ -6,4 +6,4 @@
 
 ## Resultado:
 
-[:computer: Confira a página clicando aqui: Order Summary-page :zap:](https://gabrielsnows.github.io/Order-Summary-Frontend-Mentor/)
+[:computer: Confira a página clicando aqui: Order Summary-page :musical_note:](https://gabrielsnows.github.io/Order-Summary-Frontend-Mentor/)
