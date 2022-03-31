@@ -1,0 +1,151 @@
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Purple-blue: #766cf1;
+
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background: var(--Pale-blue)
+    url(/assets/images/pattern-background-desktop.svg) no-repeat;
+  background-size: contain;
+}
+
+p {
+  font-size: 16px;
+}
+
+.container {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 28rem;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.22) 0px 7px 29px 0px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__image img {
+  max-height: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card__info-resume h1 {
+  color: var(--Dark-blue);
+  font-weight: 900;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.card__info-resume p {
+  width: 20rem;
+  color: var(--Desaturated-blue);
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card__plan {
+  background-color: var(--Very-pale-blue);
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.section__plan {
+  display: flex;
+}
+
+.card__plan-value {
+  padding-left: 18px;
+  line-height: 25px;
+}
+
+.card__plan-value h2 {
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--Dark-blue);
+}
+
+.card__plan-value p {
+  color: var(--Desaturated-blue);
+}
+
+.card__change a {
+  color: var(--Bright-blue);
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__change a:hover {
+  color: var(--Purple-blue);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.card__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__buttons button {
+  width: 340px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 15px;
+  margin: 30px 0;
+  color: #fff;
+  background-color: var(--Bright-blue);
+  box-shadow: rgba(59, 21, 196, 0.25) 0px 22px 29px 0px;
+  border: none;
+  border-radius: 10px;
+}
+
+.card__buttons button:hover {
+  background-color: var(--Purple-blue);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card__buttons a {
+  margin-bottom: 50px;
+  color: var(--Desaturated-blue);
+  font-weight: 900;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.card__buttons a:hover {
+  color: var(--Dark-blue);
+  transition: 0.2s;
+}
